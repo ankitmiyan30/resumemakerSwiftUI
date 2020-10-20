@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D630C4B42536FBF2008FE44B /* GridCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D630C4B32536FBF2008FE44B /* GridCardView.swift */; };
+		D63DDF8D2538552B008752F4 /* sample-smart-and-balanced-resume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D63DDF8C2538552B008752F4 /* sample-smart-and-balanced-resume.pdf */; };
+		D63DDF932538558F008752F4 /* ResumeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63DDF922538558F008752F4 /* ResumeInput.swift */; };
+		D653351625380581008EE9CA /* PDFKitRepresentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653351525380581008EE9CA /* PDFKitRepresentedView.swift */; };
+		D6533520253806F0008EE9CA /* sample-corporate-resume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D653351B253806EE008EE9CA /* sample-corporate-resume.pdf */; };
+		D6533521253806F0008EE9CA /* sample-lean-and-cool-resume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D653351C253806EF008EE9CA /* sample-lean-and-cool-resume.pdf */; };
+		D6533522253806F1008EE9CA /* sample-the-seeker-resume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D653351D253806F0008EE9CA /* sample-the-seeker-resume.pdf */; };
+		D6533523253806F1008EE9CA /* sample-smartandsecure-resume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D653351E253806F0008EE9CA /* sample-smartandsecure-resume.pdf */; };
+		D653352E253814B0008EE9CA /* WebViewRepresentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653352D253814B0008EE9CA /* WebViewRepresentedView.swift */; };
+		D653354025382DB6008EE9CA /* MyResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653353F25382DB6008EE9CA /* MyResumeView.swift */; };
+		D653354525382E00008EE9CA /* LatestResumeFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653354425382E00008EE9CA /* LatestResumeFormats.swift */; };
+		D653354A25382E17008EE9CA /* AddYourOwnFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653354925382E17008EE9CA /* AddYourOwnFormat.swift */; };
+		D6B74A252535D2E90090E768 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B74A242535D2E90090E768 /* LandingView.swift */; };
+		D6B823682538583C00D5FF00 /* DataInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B823672538583C00D5FF00 /* DataInputCell.swift */; };
+		D6B8237025385C4000D5FF00 /* DataInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B8236F25385C4000D5FF00 /* DataInputModel.swift */; };
+		D6B8237525386E0300D5FF00 /* CreatedPDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B8237425386E0300D5FF00 /* CreatedPDFViewer.swift */; };
+		D6C3CB572535BB5A00F50006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3CB562535BB5A00F50006 /* AppDelegate.swift */; };
+		D6C3CB592535BB5A00F50006 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3CB582535BB5A00F50006 /* SceneDelegate.swift */; };
+		D6C3CB5B2535BB5A00F50006 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3CB5A2535BB5A00F50006 /* LoginView.swift */; };
+		D6C3CB5D2535BB5C00F50006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C3CB5C2535BB5C00F50006 /* Assets.xcassets */; };
+		D6C3CB602535BB5C00F50006 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C3CB5F2535BB5C00F50006 /* Preview Assets.xcassets */; };
+		D6C3CB632535BB5C00F50006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C3CB612535BB5C00F50006 /* LaunchScreen.storyboard */; };
+		D6C3CB6E2535BB5D00F50006 /* ResumeMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3CB6D2535BB5D00F50006 /* ResumeMakerTests.swift */; };
+		D6C3CB792535BB5D00F50006 /* ResumeMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3CB782535BB5D00F50006 /* ResumeMakerUITests.swift */; };
+		D6C67049253DA5D800A9107A /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67048253DA5D800A9107A /* SUImagePickerView.swift */; };
+		D6CC1CA6253725A00030363C /* ResumePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC1CA5253725A00030363C /* ResumePreview.swift */; };
+		D6CF005D2535CB5B00084E10 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF005C2535CB5B00084E10 /* CustomTextField.swift */; };
+		D6CF00692535CCEF00084E10 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF00682535CCEF00084E10 /* SignUpView.swift */; };
+		D6CF00702535D00800084E10 /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF006F2535D00800084E10 /* DashBoardView.swift */; };
+		D6FBD0872536BC3600D9B1C6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD0862536BC3600D9B1C6 /* MenuView.swift */; };
+		D6FBD0942536E03E00D9B1C6 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD0932536E03E00D9B1C6 /* MenuRow.swift */; };
+		D6FBD0BC2536F68E00D9B1C6 /* ResumeFormatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD0BB2536F68E00D9B1C6 /* ResumeFormatModel.swift */; };
+		D6FBD0C52536F6B600D9B1C6 /* ResumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD0C42536F6B600D9B1C6 /* ResumeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6C3CB6A2535BB5D00F50006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C3CB4B2535BB5A00F50006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C3CB522535BB5A00F50006;
+			remoteInfo = ResumeMaker;
+		};
+		D6C3CB752535BB5D00F50006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C3CB4B2535BB5A00F50006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C3CB522535BB5A00F50006;
+			remoteInfo = ResumeMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D630C4B32536FBF2008FE44B /* GridCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCardView.swift; sourceTree = "<group>"; };
+		D63DDF8C2538552B008752F4 /* sample-smart-and-balanced-resume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "sample-smart-and-balanced-resume.pdf"; sourceTree = "<group>"; };
+		D63DDF922538558F008752F4 /* ResumeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeInput.swift; sourceTree = "<group>"; };
+		D653351525380581008EE9CA /* PDFKitRepresentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitRepresentedView.swift; sourceTree = "<group>"; };
+		D653351B253806EE008EE9CA /* sample-corporate-resume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "sample-corporate-resume.pdf"; sourceTree = "<group>"; };
+		D653351C253806EF008EE9CA /* sample-lean-and-cool-resume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "sample-lean-and-cool-resume.pdf"; sourceTree = "<group>"; };
+		D653351D253806F0008EE9CA /* sample-the-seeker-resume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "sample-the-seeker-resume.pdf"; sourceTree = "<group>"; };
+		D653351E253806F0008EE9CA /* sample-smartandsecure-resume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "sample-smartandsecure-resume.pdf"; sourceTree = "<group>"; };
+		D653352D253814B0008EE9CA /* WebViewRepresentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewRepresentedView.swift; sourceTree = "<group>"; };
+		D653353F25382DB6008EE9CA /* MyResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyResumeView.swift; sourceTree = "<group>"; };
+		D653354425382E00008EE9CA /* LatestResumeFormats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestResumeFormats.swift; sourceTree = "<group>"; };
+		D653354925382E17008EE9CA /* AddYourOwnFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddYourOwnFormat.swift; sourceTree = "<group>"; };
+		D6B74A242535D2E90090E768 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		D6B823672538583C00D5FF00 /* DataInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputCell.swift; sourceTree = "<group>"; };
+		D6B8236F25385C4000D5FF00 /* DataInputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputModel.swift; sourceTree = "<group>"; };
+		D6B8237425386E0300D5FF00 /* CreatedPDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedPDFViewer.swift; sourceTree = "<group>"; };
+		D6C3CB532535BB5A00F50006 /* ResumeMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumeMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C3CB562535BB5A00F50006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6C3CB582535BB5A00F50006 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6C3CB5A2535BB5A00F50006 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D6C3CB5C2535BB5C00F50006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6C3CB5F2535BB5C00F50006 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6C3CB622535BB5C00F50006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6C3CB642535BB5C00F50006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C3CB692535BB5D00F50006 /* ResumeMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C3CB6D2535BB5D00F50006 /* ResumeMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeMakerTests.swift; sourceTree = "<group>"; };
+		D6C3CB6F2535BB5D00F50006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C3CB742535BB5D00F50006 /* ResumeMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C3CB782535BB5D00F50006 /* ResumeMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeMakerUITests.swift; sourceTree = "<group>"; };
+		D6C3CB7A2535BB5D00F50006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C67048253DA5D800A9107A /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
+		D6CC1CA5253725A00030363C /* ResumePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumePreview.swift; sourceTree = "<group>"; };
+		D6CF005C2535CB5B00084E10 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D6CF00682535CCEF00084E10 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D6CF006F2535D00800084E10 /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		D6FBD0862536BC3600D9B1C6 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D6FBD0932536E03E00D9B1C6 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		D6FBD0BB2536F68E00D9B1C6 /* ResumeFormatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeFormatModel.swift; sourceTree = "<group>"; };
+		D6FBD0C42536F6B600D9B1C6 /* ResumeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C3CB502535BB5A00F50006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C3CB662535BB5D00F50006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C3CB712535BB5D00F50006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D630C4B12536FBC1008FE44B /* ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				D6CF005C2535CB5B00084E10 /* CustomTextField.swift */,
+			);
+			path = ChildView;
+			sourceTree = "<group>";
+		};
+		D630C4B22536FBD6008FE44B /* ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBD0932536E03E00D9B1C6 /* MenuRow.swift */,
+				D630C4B32536FBF2008FE44B /* GridCardView.swift */,
+			);
+			path = ChildView;
+			sourceTree = "<group>";
+		};
+		D63DDF912538556D008752F4 /* ResumeViewer+Editor */ = {
+			isa = PBXGroup;
+			children = (
+				D6B823662538582100D5FF00 /* ChildView */,
+				D6CC1CA5253725A00030363C /* ResumePreview.swift */,
+				D63DDF922538558F008752F4 /* ResumeInput.swift */,
+				D6B8237425386E0300D5FF00 /* CreatedPDFViewer.swift */,
+			);
+			path = "ResumeViewer+Editor";
+			sourceTree = "<group>";
+		};
+		D6B823662538582100D5FF00 /* ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				D6B823672538583C00D5FF00 /* DataInputCell.swift */,
+			);
+			path = ChildView;
+			sourceTree = "<group>";
+		};
+		D6C3CB4A2535BB5A00F50006 = {
+			isa = PBXGroup;
+			children = (
+				D6C3CB552535BB5A00F50006 /* ResumeMaker */,
+				D6C3CB6C2535BB5D00F50006 /* ResumeMakerTests */,
+				D6C3CB772535BB5D00F50006 /* ResumeMakerUITests */,
+				D6C3CB542535BB5A00F50006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C3CB542535BB5A00F50006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3CB532535BB5A00F50006 /* ResumeMaker.app */,
+				D6C3CB692535BB5D00F50006 /* ResumeMakerTests.xctest */,
+				D6C3CB742535BB5D00F50006 /* ResumeMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C3CB552535BB5A00F50006 /* ResumeMaker */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBD0C32536F6A000D9B1C6 /* ViewModel */,
+				D6FBD0BA2536F67E00D9B1C6 /* Model */,
+				D6CF00642535CB8400084E10 /* View */,
+				D6C3CB562535BB5A00F50006 /* AppDelegate.swift */,
+				D6C3CB582535BB5A00F50006 /* SceneDelegate.swift */,
+				D653351525380581008EE9CA /* PDFKitRepresentedView.swift */,
+				D653352D253814B0008EE9CA /* WebViewRepresentedView.swift */,
+				D6C67048253DA5D800A9107A /* SUImagePickerView.swift */,
+				D6C3CB5C2535BB5C00F50006 /* Assets.xcassets */,
+				D653351B253806EE008EE9CA /* sample-corporate-resume.pdf */,
+				D653351C253806EF008EE9CA /* sample-lean-and-cool-resume.pdf */,
+				D653351E253806F0008EE9CA /* sample-smartandsecure-resume.pdf */,
+				D63DDF8C2538552B008752F4 /* sample-smart-and-balanced-resume.pdf */,
+				D653351D253806F0008EE9CA /* sample-the-seeker-resume.pdf */,
+				D6C3CB612535BB5C00F50006 /* LaunchScreen.storyboard */,
+				D6C3CB642535BB5C00F50006 /* Info.plist */,
+				D6C3CB5E2535BB5C00F50006 /* Preview Content */,
+			);
+			path = ResumeMaker;
+			sourceTree = "<group>";
+		};
+		D6C3CB5E2535BB5C00F50006 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3CB5F2535BB5C00F50006 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6C3CB6C2535BB5D00F50006 /* ResumeMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3CB6D2535BB5D00F50006 /* ResumeMakerTests.swift */,
+				D6C3CB6F2535BB5D00F50006 /* Info.plist */,
+			);
+			path = ResumeMakerTests;
+			sourceTree = "<group>";
+		};
+		D6C3CB772535BB5D00F50006 /* ResumeMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3CB782535BB5D00F50006 /* ResumeMakerUITests.swift */,
+				D6C3CB7A2535BB5D00F50006 /* Info.plist */,
+			);
+			path = ResumeMakerUITests;
+			sourceTree = "<group>";
+		};
+		D6CF00642535CB8400084E10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D63DDF912538556D008752F4 /* ResumeViewer+Editor */,
+				D6CF006E2535CFF000084E10 /* DashBoardView */,
+				D6CF006D2535CFE000084E10 /* AuthViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6CF006D2535CFE000084E10 /* AuthViews */ = {
+			isa = PBXGroup;
+			children = (
+				D630C4B12536FBC1008FE44B /* ChildView */,
+				D6B74A242535D2E90090E768 /* LandingView.swift */,
+				D6C3CB5A2535BB5A00F50006 /* LoginView.swift */,
+				D6CF00682535CCEF00084E10 /* SignUpView.swift */,
+			);
+			path = AuthViews;
+			sourceTree = "<group>";
+		};
+		D6CF006E2535CFF000084E10 /* DashBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				D630C4B22536FBD6008FE44B /* ChildView */,
+				D6CF006F2535D00800084E10 /* DashBoardView.swift */,
+				D6FBD0862536BC3600D9B1C6 /* MenuView.swift */,
+				D653353F25382DB6008EE9CA /* MyResumeView.swift */,
+				D653354425382E00008EE9CA /* LatestResumeFormats.swift */,
+				D653354925382E17008EE9CA /* AddYourOwnFormat.swift */,
+			);
+			path = DashBoardView;
+			sourceTree = "<group>";
+		};
+		D6FBD0BA2536F67E00D9B1C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBD0BB2536F68E00D9B1C6 /* ResumeFormatModel.swift */,
+				D6B8236F25385C4000D5FF00 /* DataInputModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6FBD0C32536F6A000D9B1C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBD0C42536F6B600D9B1C6 /* ResumeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C3CB522535BB5A00F50006 /* ResumeMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C3CB7D2535BB5D00F50006 /* Build configuration list for PBXNativeTarget "ResumeMaker" */;
+			buildPhases = (
+				D6C3CB4F2535BB5A00F50006 /* Sources */,
+				D6C3CB502535BB5A00F50006 /* Frameworks */,
+				D6C3CB512535BB5A00F50006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResumeMaker;
+			productName = ResumeMaker;
+			productReference = D6C3CB532535BB5A00F50006 /* ResumeMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6C3CB682535BB5D00F50006 /* ResumeMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C3CB802535BB5D00F50006 /* Build configuration list for PBXNativeTarget "ResumeMakerTests" */;
+			buildPhases = (
+				D6C3CB652535BB5D00F50006 /* Sources */,
+				D6C3CB662535BB5D00F50006 /* Frameworks */,
+				D6C3CB672535BB5D00F50006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C3CB6B2535BB5D00F50006 /* PBXTargetDependency */,
+			);
+			name = ResumeMakerTests;
+			productName = ResumeMakerTests;
+			productReference = D6C3CB692535BB5D00F50006 /* ResumeMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6C3CB732535BB5D00F50006 /* ResumeMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C3CB832535BB5D00F50006 /* Build configuration list for PBXNativeTarget "ResumeMakerUITests" */;
+			buildPhases = (
+				D6C3CB702535BB5D00F50006 /* Sources */,
+				D6C3CB712535BB5D00F50006 /* Frameworks */,
+				D6C3CB722535BB5D00F50006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C3CB762535BB5D00F50006 /* PBXTargetDependency */,
+			);
+			name = ResumeMakerUITests;
+			productName = ResumeMakerUITests;
+			productReference = D6C3CB742535BB5D00F50006 /* ResumeMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C3CB4B2535BB5A00F50006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D6C3CB522535BB5A00F50006 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D6C3CB682535BB5D00F50006 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D6C3CB522535BB5A00F50006;
+					};
+					D6C3CB732535BB5D00F50006 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D6C3CB522535BB5A00F50006;
+					};
+				};
+			};
+			buildConfigurationList = D6C3CB4E2535BB5A00F50006 /* Build configuration list for PBXProject "ResumeMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C3CB4A2535BB5A00F50006;
+			productRefGroup = D6C3CB542535BB5A00F50006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C3CB522535BB5A00F50006 /* ResumeMaker */,
+				D6C3CB682535BB5D00F50006 /* ResumeMakerTests */,
+				D6C3CB732535BB5D00F50006 /* ResumeMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C3CB512535BB5A00F50006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6533521253806F0008EE9CA /* sample-lean-and-cool-resume.pdf in Resources */,
+				D6C3CB632535BB5C00F50006 /* LaunchScreen.storyboard in Resources */,
+				D6533520253806F0008EE9CA /* sample-corporate-resume.pdf in Resources */,
+				D6C3CB602535BB5C00F50006 /* Preview Assets.xcassets in Resources */,
+				D6533523253806F1008EE9CA /* sample-smartandsecure-resume.pdf in Resources */,
+				D6533522253806F1008EE9CA /* sample-the-seeker-resume.pdf in Resources */,
+				D6C3CB5D2535BB5C00F50006 /* Assets.xcassets in Resources */,
+				D63DDF8D2538552B008752F4 /* sample-smart-and-balanced-resume.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C3CB672535BB5D00F50006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C3CB722535BB5D00F50006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C3CB4F2535BB5A00F50006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CF005D2535CB5B00084E10 /* CustomTextField.swift in Sources */,
+				D6FBD0872536BC3600D9B1C6 /* MenuView.swift in Sources */,
+				D6FBD0942536E03E00D9B1C6 /* MenuRow.swift in Sources */,
+				D6CC1CA6253725A00030363C /* ResumePreview.swift in Sources */,
+				D6B823682538583C00D5FF00 /* DataInputCell.swift in Sources */,
+				D653352E253814B0008EE9CA /* WebViewRepresentedView.swift in Sources */,
+				D6CF00692535CCEF00084E10 /* SignUpView.swift in Sources */,
+				D6C67049253DA5D800A9107A /* SUImagePickerView.swift in Sources */,
+				D63DDF932538558F008752F4 /* ResumeInput.swift in Sources */,
+				D6B74A252535D2E90090E768 /* LandingView.swift in Sources */,
+				D6B8237525386E0300D5FF00 /* CreatedPDFViewer.swift in Sources */,
+				D653351625380581008EE9CA /* PDFKitRepresentedView.swift in Sources */,
+				D6B8237025385C4000D5FF00 /* DataInputModel.swift in Sources */,
+				D6C3CB572535BB5A00F50006 /* AppDelegate.swift in Sources */,
+				D6FBD0C52536F6B600D9B1C6 /* ResumeViewModel.swift in Sources */,
+				D6CF00702535D00800084E10 /* DashBoardView.swift in Sources */,
+				D630C4B42536FBF2008FE44B /* GridCardView.swift in Sources */,
+				D6C3CB592535BB5A00F50006 /* SceneDelegate.swift in Sources */,
+				D6FBD0BC2536F68E00D9B1C6 /* ResumeFormatModel.swift in Sources */,
+				D6C3CB5B2535BB5A00F50006 /* LoginView.swift in Sources */,
+				D653354525382E00008EE9CA /* LatestResumeFormats.swift in Sources */,
+				D653354A25382E17008EE9CA /* AddYourOwnFormat.swift in Sources */,
+				D653354025382DB6008EE9CA /* MyResumeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C3CB652535BB5D00F50006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C3CB6E2535BB5D00F50006 /* ResumeMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C3CB702535BB5D00F50006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C3CB792535BB5D00F50006 /* ResumeMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6C3CB6B2535BB5D00F50006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C3CB522535BB5A00F50006 /* ResumeMaker */;
+			targetProxy = D6C3CB6A2535BB5D00F50006 /* PBXContainerItemProxy */;
+		};
+		D6C3CB762535BB5D00F50006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C3CB522535BB5A00F50006 /* ResumeMaker */;
+			targetProxy = D6C3CB752535BB5D00F50006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6C3CB612535BB5C00F50006 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C3CB622535BB5C00F50006 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6C3CB7B2535BB5D00F50006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6C3CB7C2535BB5D00F50006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C3CB7E2535BB5D00F50006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ResumeMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = B8QYTV3FPN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ResumeMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.ResumeMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6C3CB7F2535BB5D00F50006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ResumeMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = B8QYTV3FPN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ResumeMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.ResumeMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6C3CB812535BB5D00F50006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ResumeMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.ResumeMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumeMaker.app/ResumeMaker";
+			};
+			name = Debug;
+		};
+		D6C3CB822535BB5D00F50006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ResumeMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.ResumeMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumeMaker.app/ResumeMaker";
+			};
+			name = Release;
+		};
+		D6C3CB842535BB5D00F50006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ResumeMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.ResumeMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResumeMaker;
+			};
+			name = Debug;
+		};
+		D6C3CB852535BB5D00F50006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ResumeMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.ResumeMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResumeMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C3CB4E2535BB5A00F50006 /* Build configuration list for PBXProject "ResumeMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C3CB7B2535BB5D00F50006 /* Debug */,
+				D6C3CB7C2535BB5D00F50006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C3CB7D2535BB5D00F50006 /* Build configuration list for PBXNativeTarget "ResumeMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C3CB7E2535BB5D00F50006 /* Debug */,
+				D6C3CB7F2535BB5D00F50006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C3CB802535BB5D00F50006 /* Build configuration list for PBXNativeTarget "ResumeMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C3CB812535BB5D00F50006 /* Debug */,
+				D6C3CB822535BB5D00F50006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C3CB832535BB5D00F50006 /* Build configuration list for PBXNativeTarget "ResumeMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C3CB842535BB5D00F50006 /* Debug */,
+				D6C3CB852535BB5D00F50006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C3CB4B2535BB5A00F50006 /* Project object */;
+}
